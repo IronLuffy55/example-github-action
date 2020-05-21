@@ -2,7 +2,7 @@ on:
   pull_request:
     types: 
       - ready_for_review
-      - open
+      - opened
     branches: 
       - master
   
