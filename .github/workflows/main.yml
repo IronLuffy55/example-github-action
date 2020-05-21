@@ -1,5 +1,10 @@
-on: [pull_request]
-
+on:
+  pull_request:
+    types: 
+      - open
+    branches: 
+      - master
+  
 jobs:
   hello_world_job:
     runs-on: ubuntu-latest
